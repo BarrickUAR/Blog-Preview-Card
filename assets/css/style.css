@@ -1,0 +1,77 @@
+* {
+}
+
+body {
+    background-color: #F4D04E;
+}
+
+.container {
+    width: 400px;
+    margin: 120px auto;
+    padding: 24px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    /* box-shadow: ; */
+}
+
+    .container > * {
+        margin-bottom: 14px; /* İçerikler arasına boşluk bırakmak için */
+    }
+
+    .container img {
+        border-radius: 25px; /* Resimlere border-radius ekleme */
+    }
+
+.category {
+    margin-bottom: 0; /* İçeriğin altına boşluk bırakmamak için */
+}
+
+    .category .title {
+        font-weight: 58px;
+        font-size: 14px;
+        line-height: 21px;
+        display: inline-block;
+        padding: 8px 16px; /* Yazı etrafına boşluk bırak */
+        border: 2px solid #F4D04E;
+        background-color: #F4D04E; /* Arka plan rengini turuncu yapma */
+        border-radius: 20px;
+        margin-right: 250px; /* Kutu ile arasında boşluk bırakmak için */
+    }
+
+    .category h3 {
+        margin-right: 150px; /* H3 başlıkları için sağdan boşluk bırakma */
+        margin-left: 1px;
+    }
+
+    .category .title2 {
+        margin-left: 30px; /* Başlığın solundan boşluk bırakma */
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        text-align: left;
+        margin-right: 30px;
+        margin-left: 35px;
+    }
+
+    .category .paragraph {
+        margin-right: 10px;
+        margin-left: 35px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+    }
+
+.usercard {
+    display: flex;
+    align-items: center; /* Dikey hizalama */
+    margin-left: 30px;
+}
+
+.userimg {
+    margin-right: 15px; /* Fotoğrafın sağ tarafında bir boşluk bırakmak için */
+}
